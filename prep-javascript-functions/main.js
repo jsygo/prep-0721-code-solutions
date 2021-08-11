@@ -11,3 +11,10 @@ function convertHoursToMinutes(hours) {
 
 var hoursToMinutes = convertHoursToMinutes(2);
 console.log('output of convertHoursToMinutes(2)', hoursToMinutes);
+
+function getGreeting(name) {
+  return 'Hello ' + name + '!';
+}
+
+var greeting = getGreeting('Tim');
+console.log('output of getGreeting(\'Tim\')', greeting);
