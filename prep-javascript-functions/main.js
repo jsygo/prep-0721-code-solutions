@@ -32,3 +32,10 @@ function multiplyAndDivideBy5(num1, num2) {
 
 var multiplyAndDivideBy5Test = multiplyAndDivideBy5(35, 10);
 console.log('output of multiplyAndDivideBy5(35, 10)', multiplyAndDivideBy5Test);
+
+function subtractTwoNumbers(num1, num2) {
+  return num1 - num2;
+}
+
+var subtractTwoNumbersTest = subtractTwoNumbers(22, 7);
+console.log('output of subtractTwoNumbers(22, 7)', subtractTwoNumbersTest);
