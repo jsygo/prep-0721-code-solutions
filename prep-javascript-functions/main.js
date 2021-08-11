@@ -9,12 +9,19 @@ function convertHoursToMinutes(hours) {
   return hours * 60;
 }
 
-var hoursToMinutes = convertHoursToMinutes(2);
-console.log('output of convertHoursToMinutes(2)', hoursToMinutes);
+var convertHoursToMinutesTest = convertHoursToMinutes(2);
+console.log('output of convertHoursToMinutes(2)', convertHoursToMinutesTest);
 
 function getGreeting(name) {
   return 'Hello ' + name + '!';
 }
 
-var greeting = getGreeting('Tim');
-console.log('output of getGreeting(\'Tim\')', greeting);
+var getGreetingTest = getGreeting('Tim');
+console.log('output of getGreeting(\'Tim\')', getGreetingTest);
+
+function addAndMultiplyBy5(num1, num2) {
+  return (num1 + num2) * 5;
+}
+
+var addAndMultiplyBy5Test = addAndMultiplyBy5(10, 5);
+console.log('output of addAndMultiplyBy5(10, 5)', addAndMultiplyBy5Test);
