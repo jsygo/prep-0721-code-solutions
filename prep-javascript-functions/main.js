@@ -39,3 +39,10 @@ function subtractTwoNumbers(num1, num2) {
 
 var subtractTwoNumbersTest = subtractTwoNumbers(22, 7);
 console.log('output of subtractTwoNumbers(22, 7)', subtractTwoNumbersTest);
+
+function getCircleCircumference(radius) {
+  return 2 * Math.PI * radius;
+}
+
+var getCircleCircumferenceTest = getCircleCircumference(5);
+console.log('output of getCircleCircumference(5)', getCircleCircumferenceTest);
